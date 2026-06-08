@@ -1,0 +1,77 @@
+
+<svg width="950" height="520"
+xmlns="http://www.w3.org/2000/svg">
+
+<rect
+width="100%"
+height="100%"
+rx="12"
+fill="#1a1b27"/>
+
+<text
+x="70"
+y="70"
+font-size="42"
+fill="#70a5fd">
+Top Languages
+</text>
+
+
+    <rect x="90" y="102" width="24" height="24" fill="#f1e05a"/>
+    <text x="130" y="120" fill="#41d1c7" font-size="24">Python 39.9%</text>
+    
+    <rect x="90" y="157" width="24" height="24" fill="#3572A5"/>
+    <text x="130" y="175" fill="#41d1c7" font-size="24">JavaScript 27.6%</text>
+    
+    <rect x="90" y="212" width="24" height="24" fill="#89e051"/>
+    <text x="130" y="230" fill="#41d1c7" font-size="24">CSS 20.2%</text>
+    
+    <rect x="90" y="267" width="24" height="24" fill="#e34c26"/>
+    <text x="130" y="285" fill="#41d1c7" font-size="24">HTML 12.3%</text>
+    
+
+
+        <path d="
+        M 550.0 120.0
+        A 140 140 0 0 1 632.7994205300677 372.8904600038684
+        "
+        fill="none"
+        stroke="#f1e05a"
+        stroke-width="56"
+        />
+        
+        <path d="
+        M 632.7994205300677 372.8904600038684
+        A 140 140 0 0 1 425.2655424087759 323.5713385844842
+        "
+        fill="none"
+        stroke="#3572A5"
+        stroke-width="56"
+        />
+        
+        <path d="
+        M 425.2655424087759 323.5713385844842
+        A 140 140 0 0 1 452.13102357903864 159.89174132813363
+        "
+        fill="none"
+        stroke="#89e051"
+        stroke-width="56"
+        />
+        
+        <path d="
+        M 452.13102357903864 159.89174132813363
+        A 140 140 0 0 1 550.0 120.0
+        "
+        fill="none"
+        stroke="#e34c26"
+        stroke-width="56"
+        />
+        
+
+<circle
+cx="550"
+cy="260"
+r="90"
+fill="#1a1b27"/>
+
+</svg>
