@@ -1,11 +1,27 @@
-import requests
+import os
 import math
+import requests
 
 USERNAME = "SandyTAP"
 
-repos = requests.get(
-    f"https://api.github.com/users/{USERNAME}/repos?per_page=100"
-).json()
+headers = {}
+
+token = os.getenv("GITHUB_TOKEN")
+if token:
+    headers["Authorization"] = f"Bearer {token}"
+
+response = requests.get(
+    f"https://api.github.com/users/{USERNAME}/repos?per_page=100",
+    headers=headers
+)
+
+response.raise_for_status()
+
+repos = response.json()
+
+if not isinstance(repos, list):
+    print(repos)
+    raise SystemExit("GitHub API did not return a repository list.")
 
 langs = {}
 
@@ -13,7 +29,10 @@ for repo in repos:
     if repo.get("fork"):
         continue
 
-    data = requests.get(repo["languages_url"]).json()
+    data = requests.get(
+        repo["languages_url"],
+        headers=headers
+    ).json()
 
     for lang, count in data.items():
         langs[lang] = langs.get(lang, 0) + count
@@ -39,7 +58,6 @@ cy = 260
 r = 140
 
 start = 0
-
 paths = []
 
 for i, (lang, value) in enumerate(langs):
