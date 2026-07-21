@@ -18,52 +18,16 @@ Top Languages
 
 
     <rect x="90" y="102" width="24" height="24" fill="#f1e05a"/>
-    <text x="130" y="120" fill="#41d1c7" font-size="24">Python 43.1%</text>
-    
-    <rect x="90" y="157" width="24" height="24" fill="#3572A5"/>
-    <text x="130" y="175" fill="#41d1c7" font-size="24">JavaScript 26.1%</text>
-    
-    <rect x="90" y="212" width="24" height="24" fill="#89e051"/>
-    <text x="130" y="230" fill="#41d1c7" font-size="24">CSS 19.1%</text>
-    
-    <rect x="90" y="267" width="24" height="24" fill="#e34c26"/>
-    <text x="130" y="285" fill="#41d1c7" font-size="24">HTML 11.7%</text>
+    <text x="130" y="120" fill="#41d1c7" font-size="24">Python 100.0%</text>
     
 
 
         <path d="
         M 550.0 120.0
-        A 140 140 0 0 1 608.8584240520431 387.0263197849559
+        A 140 140 0 1 1 550.0 120.0
         "
         fill="none"
         stroke="#f1e05a"
-        stroke-width="56"
-        />
-        
-        <path d="
-        M 608.8584240520431 387.0263197849559
-        A 140 140 0 0 1 419.1586133433364 309.8049348735791
-        "
-        fill="none"
-        stroke="#3572A5"
-        stroke-width="56"
-        />
-        
-        <path d="
-        M 419.1586133433364 309.8049348735791
-        A 140 140 0 0 1 456.2953289901206 155.98348866199046
-        "
-        fill="none"
-        stroke="#89e051"
-        stroke-width="56"
-        />
-        
-        <path d="
-        M 456.2953289901206 155.98348866199046
-        A 140 140 0 0 1 550.0 120.0
-        "
-        fill="none"
-        stroke="#e34c26"
         stroke-width="56"
         />
         
