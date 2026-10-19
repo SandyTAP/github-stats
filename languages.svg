@@ -18,22 +18,22 @@ Top Languages
 
 
     <rect x="90" y="102" width="24" height="24" fill="#f1e05a"/>
-    <text x="130" y="120" fill="#41d1c7" font-size="24">Python 49.0%</text>
+    <text x="130" y="120" fill="#41d1c7" font-size="24">JavaScript 44.3%</text>
     
     <rect x="90" y="157" width="24" height="24" fill="#3572A5"/>
-    <text x="130" y="175" fill="#41d1c7" font-size="24">JavaScript 34.9%</text>
+    <text x="130" y="175" fill="#41d1c7" font-size="24">Python 35.3%</text>
     
     <rect x="90" y="212" width="24" height="24" fill="#89e051"/>
-    <text x="130" y="230" fill="#41d1c7" font-size="24">CSS 13.1%</text>
+    <text x="130" y="230" fill="#41d1c7" font-size="24">CSS 16.6%</text>
     
     <rect x="90" y="267" width="24" height="24" fill="#e34c26"/>
-    <text x="130" y="285" fill="#41d1c7" font-size="24">HTML 3.0%</text>
+    <text x="130" y="285" fill="#41d1c7" font-size="24">HTML 3.7%</text>
     
 
 
         <path d="
         M 550.0 120.0
-        A 140 140 0 0 1 558.5353423162129 399.73957181680885
+        A 140 140 0 0 1 598.673980009897 391.2663082058612
         "
         fill="none"
         stroke="#f1e05a"
@@ -41,8 +41,8 @@ Top Languages
         />
         
         <path d="
-        M 558.5353423162129 399.73957181680885
-        A 140 140 0 0 1 431.66729052771905 185.18442763068134
+        M 598.673980009897 391.2663082058612
+        A 140 140 0 0 1 415.9574507926952 219.5946166704574
         "
         fill="none"
         stroke="#3572A5"
@@ -50,8 +50,8 @@ Top Languages
         />
         
         <path d="
-        M 431.66729052771905 185.18442763068134
-        A 140 140 0 0 1 524.1683205845627 122.40376335604932
+        M 415.9574507926952 219.5946166704574
+        A 140 140 0 0 1 517.3311722089454 123.86496523393248
         "
         fill="none"
         stroke="#89e051"
@@ -59,7 +59,7 @@ Top Languages
         />
         
         <path d="
-        M 524.1683205845627 122.40376335604932
+        M 517.3311722089454 123.86496523393248
         A 140 140 0 0 1 550.0 120.0
         "
         fill="none"
