@@ -18,22 +18,25 @@ Top Languages
 
 
     <rect x="90" y="102" width="24" height="24" fill="#f1e05a"/>
-    <text x="130" y="120" fill="#41d1c7" font-size="24">JavaScript 44.3%</text>
+    <text x="130" y="120" fill="#41d1c7" font-size="24">Java 61.9%</text>
     
     <rect x="90" y="157" width="24" height="24" fill="#3572A5"/>
-    <text x="130" y="175" fill="#41d1c7" font-size="24">Python 35.3%</text>
+    <text x="130" y="175" fill="#41d1c7" font-size="24">C++ 24.6%</text>
     
     <rect x="90" y="212" width="24" height="24" fill="#89e051"/>
-    <text x="130" y="230" fill="#41d1c7" font-size="24">CSS 16.6%</text>
+    <text x="130" y="230" fill="#41d1c7" font-size="24">C 10.8%</text>
     
     <rect x="90" y="267" width="24" height="24" fill="#e34c26"/>
-    <text x="130" y="285" fill="#41d1c7" font-size="24">HTML 3.7%</text>
+    <text x="130" y="285" fill="#41d1c7" font-size="24">Kotlin 2.6%</text>
+    
+    <rect x="90" y="322" width="24" height="24" fill="#563d7c"/>
+    <text x="130" y="340" fill="#41d1c7" font-size="24">GLSL 0.1%</text>
     
 
 
         <path d="
         M 550.0 120.0
-        A 140 140 0 0 1 598.673980009897 391.2663082058612
+        A 140 140 0 1 1 454.5075923369562 362.3777323382143
         "
         fill="none"
         stroke="#f1e05a"
@@ -41,8 +44,8 @@ Top Languages
         />
         
         <path d="
-        M 598.673980009897 391.2663082058612
-        A 140 140 0 0 1 415.9574507926952 219.5946166704574
+        M 454.5075923369562 362.3777323382143
+        A 140 140 0 0 1 445.05026207171113 167.34174343975877
         "
         fill="none"
         stroke="#3572A5"
@@ -50,8 +53,8 @@ Top Languages
         />
         
         <path d="
-        M 415.9574507926952 219.5946166704574
-        A 140 140 0 0 1 517.3311722089454 123.86496523393248
+        M 445.05026207171113 167.34174343975877
+        A 140 140 0 0 1 526.5211652965216 121.98281150173091
         "
         fill="none"
         stroke="#89e051"
@@ -59,11 +62,20 @@ Top Languages
         />
         
         <path d="
-        M 517.3311722089454 123.86496523393248
-        A 140 140 0 0 1 550.0 120.0
+        M 526.5211652965216 121.98281150173091
+        A 140 140 0 0 1 549.0670974776046 120.00310827420594
         "
         fill="none"
         stroke="#e34c26"
+        stroke-width="56"
+        />
+        
+        <path d="
+        M 549.0670974776046 120.00310827420594
+        A 140 140 0 0 1 550.0 120.0
+        "
+        fill="none"
+        stroke="#563d7c"
         stroke-width="56"
         />
         
